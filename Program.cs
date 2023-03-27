@@ -14,6 +14,9 @@ namespace KZK03272023_PracticeGithubOnVS
 
             int x = Calculator.Addition(1, 1);
             Console.WriteLine(x);
+
+            int y = Calculator.Subtraction(1, 1);
+            Console.WriteLine(y);
             Console.ReadLine();
         }
     }
