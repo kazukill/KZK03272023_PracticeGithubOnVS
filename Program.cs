@@ -24,6 +24,8 @@ namespace KZK03272023_PracticeGithubOnVS
             int v = Calculator.Divide(6, 2);
             Console.WriteLine("6 / 2 = " + v);
             Console.ReadLine();
+
+            //ADDED COMMENT!!!
         }
     }
 }
