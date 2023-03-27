@@ -20,6 +20,9 @@ namespace KZK03272023_PracticeGithubOnVS
 
             int z = Calculator.Multiply(3, 2);
             Console.WriteLine("3 * 2 = " + z);
+
+            int v = Calculator.Divide(6, 2);
+            Console.WriteLine("6 / 2 = " + v);
             Console.ReadLine();
         }
     }
