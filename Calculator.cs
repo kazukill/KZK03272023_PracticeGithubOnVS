@@ -18,5 +18,10 @@ namespace KZK03272023_PracticeGithubOnVS
             int x = firstNum - secondNum;
             return x;
         }
+        public static int Multiply(int firstNum, int secondNum)
+        {
+            int x = firstNum * secondNum;
+            return x;
+        }
     }
 }

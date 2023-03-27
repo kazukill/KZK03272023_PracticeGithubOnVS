@@ -13,10 +13,13 @@ namespace KZK03272023_PracticeGithubOnVS
             Console.WriteLine("Hello World");
 
             int x = Calculator.Addition(1, 1);
-            Console.WriteLine(x);
+            Console.WriteLine("1 + 1 = " + x);
 
             int y = Calculator.Subtraction(1, 1);
-            Console.WriteLine(y);
+            Console.WriteLine("1 - 1 = " + y);
+
+            int z = Calculator.Multiply(3, 2);
+            Console.WriteLine("3 * 2 = " + z);
             Console.ReadLine();
         }
     }
