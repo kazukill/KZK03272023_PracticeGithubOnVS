@@ -10,6 +10,7 @@ namespace KZK03272023_PracticeGithubOnVS
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World!");
         }
     }
 }
