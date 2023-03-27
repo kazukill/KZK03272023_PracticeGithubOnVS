@@ -10,7 +10,11 @@ namespace KZK03272023_PracticeGithubOnVS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World");
+
+            int x = Calculator.Addition(1, 1);
+            Console.WriteLine(x);
+            Console.ReadLine();
         }
     }
 }
