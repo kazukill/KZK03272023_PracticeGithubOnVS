@@ -23,6 +23,9 @@ namespace KZK03272023_PracticeGithubOnVS
 
             int v = Calculator.Divide(6, 2);
             Console.WriteLine("6 / 2 = " + v);
+
+            int b = Calculator.Modulo(7, 2);
+            Console.WriteLine("7 % 2 = " + b);
             Console.ReadLine();
 
             //ADDED COMMENT!!!
