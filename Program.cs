@@ -33,6 +33,7 @@ namespace KZK03272023_PracticeGithubOnVS
             //Add directly to master remote comment
             //Add directly to master remote comment 2
             //RYN CHANGE!!
+            //try git fetch
         }
     }
 }
