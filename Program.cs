@@ -39,6 +39,7 @@ namespace KZK03272023_PracticeGithubOnVS
             int b = Calculator.Modulo(7, 2);
             Console.WriteLine("7 % 2 = " + b);
 
+            //Line Added By Derp
             int c = Calculator.Addition(3, 5);
             Console.WriteLine("3 + 5 = " + c);
             Console.ReadLine();
