@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KZK03272023_PracticeGithubOnVS.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,8 +11,20 @@ namespace KZK03272023_PracticeGithubOnVS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
-            useCalculator();
+            var personList = new List<PersonModel>()
+            {
+                new PersonModel() { Name = "Kazuki", Age = 19, HairColor = "Dark Blue"},
+                new PersonModel() { Name = "Yui", Age= 18, HairColor = "Pink"}
+            };
+
+            foreach (var person in personList)
+            {
+                Console.WriteLine("|Name:| " + person.Name + " |Age:| " + person.Age + " |Hair Color:| " + person.HairColor);
+            }
+            Console.ReadLine();
+
+            //Console.WriteLine("Hello World");
+            //useCalculator();
 
             //ADDED COMMENT!!!
             //ADDED COMMENT2!!
