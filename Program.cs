@@ -11,15 +11,58 @@ namespace KZK03272023_PracticeGithubOnVS
     {
         static void Main(string[] args)
         {
+
+
+            //var kazukiPerson = new PersonModel() { Name = "Kazuki", Age = 19, HairColor = "Dark Blue" };
+            //var waiterOccupation = new OccupationModel() { Name = "Waiter", Description = "Serves food to the customers.", Type = "Full Time" };
+
+            //Creates Persons
             var personList = new List<PersonModel>()
             {
-                new PersonModel() { Name = "Kazuki", Age = 19, HairColor = "Dark Blue"},
-                new PersonModel() { Name = "Yui", Age= 18, HairColor = "Pink"}
+                new PersonModel() { 
+                    Name = "Kazuki", 
+                    Age = 19, 
+                    HairColor = "Dark Blue", 
+                    Occupation = new OccupationModel() { 
+                        Name = "Waiter", 
+                        Description = "Serves food to the customers.", 
+                        Type = "Full Time" 
+                    }
+                },
+                new PersonModel() { 
+                    Name = "Yui", 
+                    Age= 18, 
+                    HairColor = "Pink",
+                    Occupation = new OccupationModel() { 
+                        Name = "Student", 
+                        Description = "Goes to school.", 
+                        Type = "Does not Apply"
+                    }
+                }
             };
+
+            //Creates Occupations
+            var occupationList = new List<OccupationModel>()
+            {
+                new OccupationModel() { 
+                    Name = "Waiter", 
+                    Description = "Serves food to the customers.", 
+                    Type = "Full Time" 
+                },
+                new OccupationModel() { Name = "Student", 
+                    Description = "Goes to school.", 
+                    Type = "Does not Apply"
+                }
+            };
+
 
             foreach (var person in personList)
             {
-                Console.WriteLine("|Name:| " + person.Name + " |Age:| " + person.Age + " |Hair Color:| " + person.HairColor);
+                Console.WriteLine("Name: " + person.Name + 
+                    "\nAge: " + person.Age + 
+                    "\nHair Color: " + person.HairColor +
+                    "\nOccupation: " + person.Occupation.Name);
+                Console.WriteLine();
             }
             Console.ReadLine();
 

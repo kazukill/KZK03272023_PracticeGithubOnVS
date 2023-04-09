@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace KZK03272023_PracticeGithubOnVS.Models
 {
-    internal class PersonModel
+    internal class OccupationModel
     {
         public string Name { get; set; }
-        public int Age { get; set; }
-        public string HairColor { get; set; }
-        public OccupationModel Occupation { get; set; }
+        public string Type { get; set; }
+        public string Description { get; set; }
     }
 }
